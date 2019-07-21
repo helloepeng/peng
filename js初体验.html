@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js初体验,改变文本, URL, 及链接目标:</title>
+</head>
+<body>
+<script>
+    function change() {
+        document.getElementById("gun").href="youku.com";
+        document.getElementById("gun").innerHTML="优酷";//innerHTML 属性
+    }
+</script>
+<a href="baidu.com" id="gun">百度</a>
+<input type="button" value="更改链接" onclick="change()">
+
+</body>
+</html>
